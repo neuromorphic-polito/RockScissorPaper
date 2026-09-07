@@ -1,11 +1,7 @@
-akida==2.16.1
-akida_models==1.10.0
-cnn2snn==2.16.1
+akida==2.13.0
+cnn2snn==2.13.0
+quantizeml==0.16.0
 dv_processing==2.0.2
+opencv-python==4.9.0.80
 lmdb==1.7.3
-numpy==2.3.3
-opencv_python==4.12.0.88
-protobuf==6.32.1
-quantizeml==0.19.0
-tensorflow==2.20.0
-tqdm==4.67.1
+huggingface-hub
