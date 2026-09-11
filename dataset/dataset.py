@@ -67,6 +67,7 @@ def save_images_to_folder(images, labels, out_dir):
 
 
 def make_datasets_from_disk(data_dir, batch_size=64, validation_split=0.2, seed=42, image_size=(64, 64)):
+    
     train_ds = tf.keras.utils.image_dataset_from_directory(
         data_dir,
         validation_split=validation_split,
